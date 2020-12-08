@@ -12,7 +12,7 @@
  }
 
 #container {
-  padding: 20px;
+  width: 100vw;
 }
 
 
@@ -20,16 +20,22 @@
   display: flex;
 }
 
+.nav-bar {
+  border-bottom: 1px solid lightgray;
+}
+
 .first-bar {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .second-bar {
+  font-size: 12px;
   display: flex;
-  align-items: flex-end;
-  height: 58px;
-  border-bottom: 1px solid lightgray;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 5%;
 }
 
 .google-logo {
@@ -112,7 +118,8 @@
   justify-content: space-around;
   text-align: center;
   padding-bottom: 15px;
-  width: 28%;
+  width: 30%;
+  margin-left: 2%;
 }
 
 .choice-logo {
@@ -120,6 +127,14 @@
   top: 1px;
   width: 16px;
   height: 16px;
+}
+
+.settings {
+  display: flex;
+  padding-bottom: 7px;
+  width: 10%;
+  justify-content: space-evenly;
+  margin-left: 30px;
 }
 
 input[type="submit"] {
