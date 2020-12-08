@@ -35,7 +35,8 @@
 
 #video-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   border: 1px solid lightgray;
   border-radius: 8px;
   width: 30%;
@@ -216,6 +217,16 @@
   padding-bottom: 5px;
 }
 
+.video-group {
+  width: 100%;
+}
+
+.video-group:not(:first-child) {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
+}
+
 .video {
   display: flex;
 }
@@ -274,6 +285,10 @@
   background-color: rgba(0,0,0,.40);
   padding: 1px 8px;
   border-radius: 8px;
+}
+
+hr {
+  width: 100%;
 }
 
 input[type="submit"] {
