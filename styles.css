@@ -53,6 +53,11 @@
   padding: 20px;
 }
 
+.account-bar {
+  position: relative;
+  bottom:20px;
+}
+
 .second-bar {
   font-size: 12px;
   display: flex;
